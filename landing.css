@@ -1,0 +1,133 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Borel';
+font-family: 'Bricolage Grotesque';
+font-family: 'Caprasimo';
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Tilt Warp';
+    
+
+}
+body{
+    background-image: linear-gradient(rgba(50, 49, 49, 0.8),rgba(67, 56, 56, 0.8)),url(https://wallpapers.com/images/hd/konoha-vqbn95moxvrq5msj.jpg); 
+    background-repeat: no-repeat;
+   
+} 
+/* .img{
+    padding-top: 20px;
+    padding-left: 10px;
+}  */
+/* .container{
+    width:100%;
+    min-height: 100%;
+} */
+.row{
+    width: 100%;
+    padding: 10px 80px;
+    padding-top: 20px;
+    /* box-shadow: 5px 5px #000000; */
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: chocolate; */
+    align-items: center;
+    padding-right: 10px;
+    padding: 0px 0px;
+    float: right;
+    margin-right: 2px;
+    z-index: 1;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* box-shadow: 5px 5px #000000; */
+    /* box-decoration-break: clone; */
+
+}
+.naruto h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    justify-content: left;
+    font-style: normal;
+    padding-left: 20px;
+    color: rgb(255, 123, 0);
+}
+.navigation ul li{
+    list-style: none;
+
+}
+.navigation ul li a{
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.navigation ul li a:hover{
+
+    background-color: chocolate;
+}
+.navigation h2{
+    color: #f86300;
+}
+ .content{
+    width: 100%;
+     height: 100vh; 
+     padding-top: 20px;
+    /* padding-left: 68px; */
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.content h1{
+    font-size: 50px;
+    color: #e32525;
+}
+.content p{
+    border: 5px solid;
+    padding: 10px;
+    padding-top: 2%;
+    box-shadow: 5px 10px #00aeff;
+    box-decoration-break: slice;
+    color: #97d7f5;
+    font-size: larger;
+}
+.content a{
+padding-top: 2%;
+border-radius: 5px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 40px;
+color: #fffdfd;
+text-decoration: none;
+}
+.content a:hover{
+    background-color: chocolate;
+}
+#right{  
+    align-content: center;
+    padding-left: 20px;
+
+    }
+    .f{
+        color: #000000;
+        background-color: rgb(255, 106, 7);
+        align-content: center;
+        text-align: center;
+        padding: 10px;
+      }
+    
